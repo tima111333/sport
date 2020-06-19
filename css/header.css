@@ -40,6 +40,8 @@ html{
     text-decoration: none;
     display: inline-block;
     letter-spacing: 12px;
+    transition-duration: 500ms;
+    transition-property: letter-spacing;
     
 }
 .header__link:hover{
