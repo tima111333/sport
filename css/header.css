@@ -58,6 +58,14 @@ html{
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
 }
+.socials__svg{
+    fill: #000;
+    transition-duration: 500ms;
+    transition-property: fill;
+} 
+.socials__svg:hover{
+    fill: #f84545;
+}
 .menu__list{
 display: flex;
 list-style-type: none;
@@ -289,6 +297,13 @@ svg{
     }
 }
 @media(max-width:768px){
+    .socials__item{
+        margin: 15px;
+    }
+    .footer__wrap{
+        grid-template-columns: auto;
+        justify-items: center;
+    }
     .menu__list, .menu--black{
         justify-content: center;
     }
